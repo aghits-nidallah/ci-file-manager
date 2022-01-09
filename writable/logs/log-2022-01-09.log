@@ -1,0 +1,22 @@
+CRITICAL - 2022-01-09 13:19:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/public/index.php(28): require('...')
+#4 /home/hatsushiroyuki/.config/composer/vendor/cpriego/valet-linux/server.php(232): require('...')
+#5 {main}
+CRITICAL - 2022-01-09 13:20:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/public/index.php(28): require('...')
+#2 /home/hatsushiroyuki/.config/composer/vendor/cpriego/valet-linux/server.php(232): require('...')
+#3 {main}
+CRITICAL - 2022-01-09 13:20:37 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/public/index.php(28): require('...')
+#2 /home/hatsushiroyuki/.config/composer/vendor/cpriego/valet-linux/server.php(232): require('...')
+#3 {main}
+CRITICAL - 2022-01-09 13:21:13 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/hatsushiroyuki/Development/codeigniter_projects/file-manager/public/index.php(28): require('...')
+#2 /home/hatsushiroyuki/.config/composer/vendor/cpriego/valet-linux/server.php(232): require('...')
+#3 {main}
