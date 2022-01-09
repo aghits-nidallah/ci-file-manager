@@ -7,12 +7,8 @@
 	<title>File Manager</title>
 </head>
 <body>
-	<h3>File Manager</h3>
-	<form action="<?= base_url('/') ?>" method="post">
-		<input type="file" name="file" id="file" />
-		<button type="submit">
-			Simpan
-		</button>
-	</form>
+	<a href="<?= base_url('/FileManager/new') ?>">
+		Tambah File
+	</a>
 </body>
 </html>
